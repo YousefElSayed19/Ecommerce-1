@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ecommerce Website</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="done ">
+            <i class="fa-solid fa-check w-100" ></i>
+            <p class="textEnd w-100 text-center">Done !</p>
+        </div>
+        <div class="shodo"></div>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="image/logo (2).png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item" onclick="show()">
+                            <a class="nav-link" href="./pages/cart.html"> <i class="fa-solid fa-bag-shopping"></i><span class="number">0</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="stayHome kitle">
+            <div class="text">
+                <h1># Stayhome</h1>
+                <p>Save more with cuppons &up to &70% off!</p>
+            </div>
+        </div>
+
+        <div class="product mt-5">
+            <div class="container">
+                <h1 class="title">All Products</h1>
+                <p class="sTitle">Collection New Modern Design</p>
+                <div class="cards d-flex flex-wrap">
+                    <div class="cord me-3" id="19">
+                        <div class="img w-100">
+                            <img src="./image/chart (19).jpg" alt="" class="w-100" id="19">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Adidas</p>
+                            <p class="name">Serene Springtime Frock</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$68.80</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="1">                        
+                        <div class="img w-100">
+                            <img src="image/chart (1).jpg" alt="" class="w-100" id="1">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Burberry</p>
+                            <p class="name">Cartoon1 Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div  class="cord me-3" id="2">
+                        <div class="img w-100">
+                            <img src="image/chart (2).jpg" alt="" class="w-100" id="2">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Adidas</p>
+                            <p class="name">Cartoon2 Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="3">
+                        <div class="img w-100">
+                            <img src="image/chart (3).jpg" alt="" class="w-100" id="3">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Zara</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="4">
+                        <div class="img w-100">
+                            <img src="image/chart (4).jpg" alt="" class="w-100" id="4">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Dior</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="6">
+                        <div class="img w-100">
+                            <img src="image/chart (6).jpg" alt="" class="w-100" id="6">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Adidas</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="12">
+                        <div class="img w-100">
+                            <img src="image/chart (12).jpg" alt="" class="w-100" id="12">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Floris</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="13">
+                        <div class="img w-100">
+                            <img src="image/chart (13).jpg" alt="" class="w-100" id="13">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Paul Smith</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="14">
+                        <div class="img w-100">
+                            <img src="image/chart (14).jpg" alt="" class="w-100" id="14">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Disney</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="15">
+                        <div class="img w-100">
+                            <img src="image/chart (15).jpg" alt="" class="w-100" id="15">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Alexander McQueen</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="16">
+                        <div class="img w-100">
+                            <img src="image/chart (16).jpg" alt="" class="w-100" id="16">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Alexander McQueen</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="17">
+                        <div class="img w-100">
+                            <img src="image/chart (17).jpg" alt="" class="w-100" id="17">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Adidas</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="18">
+                        <div class="img w-100">
+                            <img src="image/chart (18).jpg" alt="" class="w-100" id="18">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Zara</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="20">
+                        <div class="img w-100">
+                            <img src="image/chart (20).jpg" alt="" class="w-100" id="20">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Floris</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="21">
+                        <div class="img w-100">
+                            <img src="image/chart (21).jpg" alt="" class="w-100" id="21">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Zara</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="22">
+                        <div class="img w-100">
+                            <img src="image/chart (22).jpg" alt="" class="w-100" id="22">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Zara</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="5">
+                        <div class="img w-100">
+                            <img src="image/chart (5).jpg" alt="" class="w-100" id="5">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Burberry</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="7">
+                        <div class="img w-100">
+                            <img src="image/chart (7).jpg" alt="" class="w-100" id="7">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Burberry</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="8">
+                        <div class="img w-100">
+                            <img src="image/chart (8).jpg" alt="" class="w-100" id="8">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Herb</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="9">
+                        <div class="img w-100">
+                            <img src="image/chart (9).jpg" alt="" class="w-100" id="9">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Adidas</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="10">
+                        <div class="img w-100">
+                            <img src="image/chart (10).jpg" alt="" class="w-100" id="10">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Zara   </p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="cord me-3" id="11">
+                            <div class="img w-100">
+                                <img src="image/chart (11).jpg" alt="" class="w-100" id="11">
+                            </div>
+                            <div class="text">
+                                <p class="marka">Adidas</p>
+                                <p class="name">Cartoon Astronaut T-Shirts</p>
+                                <div class="stars mb-2 mt-2">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="foot d-flex justify-content-between align-items-center">
+                                    <span>$76</span>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="cord me-3" id="19">
+                        <div class="img w-100">
+                            <img src="image/chart (19).jpg" alt="" class="w-100" id="19">
+                        </div>
+                        <div class="text">
+                            <p class="marka">Disney</p>
+                            <p class="name">Cartoon Astronaut T-Shirts</p>
+                            <div class="stars mb-2 mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <span>$76</span>
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content pt-3 pb-1 rounded-5 ">
+            <div class="container d-grid justify-content-center">
+                <div class="card pt-5 ps-3 pe-3 pb-0 p-relative" style="width: 20rem;">
+                    <span class=" delete">X</span>
+                    <img src="./image/chart (9).jpg" class="card-img-top" alt="..." id="showImg">
+                    <div class="card-body">
+                        <h5 class="card-title marka1">Card title</h5>
+                        <p class="card-text name1"> bulk of the card's content.</p>
+                        <p class="card-text price1"> bulk of the card's content.</p>
+                        <button class=" btn btn-primary add mt-1 mb-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- <div class="row pt-5 pb-5 align-items-center" >
+                    <div class=" col-lg-6 img">
+                        <img src="./image/chart (9).jpg" alt="" class="w-75" id="showImg">
+                    </div>
+                    <div class="text col-lg-6 ">
+                        <p class="marka1">Home/T-Shirt</p>
+                        <h1 class="name1">Men's Fashion T Shirt</h1>
+                        <h1 class="price1 mb-5">$139.00</h1>
+                        <button class=" btn btn-primary add mt-5">Add To Cart</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="footer mb-3 mt-3">
+            <div class="container one">
+                <div class="up d-lg-flex justify-content-lg-between align-content-lg-center text-lg-start text-center mt-5 mb-5">
+                    <div class="left">
+                        <h1>Sign Up For Newsletters</h1>
+                        <h1>Get E-mail updates aboput our lates shop and <span class="text-warning">Special offers.</span></h1>
+                    </div>
+                    <div class="right d-flex align-items-center justify-content-between">
+                        <input type="email" placeholder="Your email addres">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container d-grid pb-2 pt-2">
+                <div class="row">
+                    <div class="col-lg-4 col-md-8">
+                        <img src="image/logo (2).png" alt="">
+                        <p>Contact</p>
+                        <p><span class="fw-bold">Address:</span> Zifta - Egypt</p>
+                        <p><span class="fw-bold">Phone:</span> 01013566386</p>
+                        <p><span class="fw-bold">Hours:</span> 10:00 -18:00 , Mon -Sat</p>
+                        <p><span class="fw-bold">Follow US</span></p>
+                        <div class="links">
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100010998605405"><i class="fa-brands fa-facebook fs-2 me-2"></i></a>
+                            <a target="_blank" href="https://github.com/YousefElSayed19"><i class="fa-brands fa-github fs-2 me-2"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/yousaf-elsayed-a316a92a8/"><i class="fa-brands fa-linkedin fs-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 order-md-3 order-lg-2 mt-md-5 mt-5 mt-lg-0">
+                        <p class="fw-bold">About</p>
+                        <p>About Us</p>
+                        <p>Delivery Information</p>
+                        <p>Privacy Policy</p>
+                        <p>Terms & Conditions</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="col-lg-2 col-md-4 mt-5 mt-lg-0">
+                        <p class="fw-bold">My Account</p>
+                        <p>Sign In</p>
+                        <p>View Cart</p>
+                        <p>My Wishlist</p>
+                        <p>Track My Order</p>
+                        <p>Help</p>
+                    </div>
+                    <div class="col-lg-4 col-md-8 order-md-2 mt-md-5 mt-5 mt-lg-0">
+                        <p class="fw-bold">Install App</p>
+                        <p>From App Store or Google Play</p>
+                        <div class="d-flex ">
+                            <div class="bor me-2 rounded-3 p-1 mb-3">                           
+                                <img src="image/app.jpg" alt="" class="w-100">
+                            </div>
+                            <div class="bor rounded-3 p-1 mb-3">                            
+                                <img src="image/play.jpg" alt="" class="w-100">
+                            </div>
+                        </div>
+                        <p>Secured Payment Gateways</p>
+                        <img src="image/pay.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <p class="text-center mt-3">© 2024 , Ecommerce Html css Java Script Template</p>
+        </footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js "></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</html>
+
+
+<!-- 
+<i class="fa-solid fa-wand-magic-sparkles"></i>
+<i class="fa-solid fa-desktop"></i>
+<i class="fa-solid fa-plug"></i>
+
+-->
